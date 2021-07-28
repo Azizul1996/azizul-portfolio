@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Portfolio</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+	<div class="container">
+		
+		<header>
+			
+			<div class="logo col-2">
+				<img src="images/82.jpg" alt="logo of star" />
+			</div>
+
+			<div class="head col-4">
+				<h1>Azizul Hakim Portfolio</h1>
+			</div>
+				
+			<div class="nav col-6">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="skills.html">Skills</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</div>		
+		</header>
+		
+		<main>
+			<div class="pic">
+				<img src="images/azizul.jpg" alt="Azizul hakim" />
+				
+			</div>
+			
+			<div class="animate">
+				<img src="images/shark.png" alt="shark icon" />
+			</div>
+			
+			<div class="sec">
+				<h2>Hellow Everyone !!</h2>
+				<div class="description">
+					<p>My name is Azizul Hakim. I am from bangladesh and I want to do some job related to web design and development.</p>
+					<p>I have learned both the static and dynamic design of web design. First I learned static design by <span class="word">HTML</span> and <span class="word">CSS</span> then learned to make the static design dynamic by using <span class="word">JavaScript</span>, <span class="word">PHP</span> and <span class="word">MySQL</span> database.</p>
+					<p>The most important thing is that to make the website according to your mobile or laptop or tablet the website should be made responsive and you will find the responsiveness of this portfolio which i made for myself by viewing in your phone or tablet.</p>
+					<p>I have used several CSS effects in this portfolio which you will be experiencing through my portfolio.</p>
+					<p>I have used some JavaScript on this you can see.</p>
+					<p>I have learned PHP and MySQL database and used on a website <a href="https://www.wedesit.com" style="text-decoration:none;" target="blank">Wedesit </a> you can check out.</p>
+				</div>
+			</div>
+			
+			<div id="showclock"></div>
+		
+				<script type="text/javascript">
+				
+					clocktime = setInterval(time,1000);
+					
+					function time(){
+						var date = new Date();
+						var clock = date.toLocaleTimeString();
+						document.getElementById('showclock').innerHTML = clock;
+					}
+				</script>
+			
+			<div class="animate">
+				<img src="images/fish.png" alt="fish icon" />
+			</div>
+			
+			
+		</main>
+		<footer>
+			<div class="footer">
+				<p>All rights reserved by Azizul Hakim</p>
+			</div>
+		</footer>
+	
+	</div>
+</body>
+</html>
